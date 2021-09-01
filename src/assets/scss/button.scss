@@ -1,0 +1,31 @@
+button {
+  width: 100%;
+  white-space: nowrap;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background: $primary_1;
+  color: $white;
+  font-weight: 600;
+}
+.button-secondary {
+  background: $primary_3;
+  color: $white;
+  font-weight: 600;
+}
+.button-cancel {
+  background: $lightGray;
+  color: $primary_1;
+  font-weight: 600;
+}
+.button-link {
+  background: none;
+  color: $primary_1;
+  font-weight: 600;
+  padding: 0px;
+}

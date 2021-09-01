@@ -1,0 +1,42 @@
+.input-group {
+  margin-bottom: 30px;
+  @include alignLeft;
+  flex-direction: column;
+}
+.input-group-checkbox {
+  @include alignCenterLeft;
+}
+.input-w-button {
+  @include alignCenterLeft;
+  width: 100%;
+}
+.input-option-items {
+  @include alignCenterLeft;
+  flex-wrap: wrap;
+}
+
+input, label, textarea {
+  font-family: $fontOpenSans;
+}
+
+label {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: $font_small_size;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  cursor: pointer
+}
+
+textarea {
+  resize: none;
+}
+
+input, textarea, select {
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  border: $general_border
+}

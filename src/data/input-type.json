@@ -1,0 +1,9 @@
+{
+  "inputTypes": [
+    {"id": 1,"name": "Texto corto", "value": "text"},
+    {"id": 2,"name": "Texto largo", "value": "textarea"},
+    {"id": 3,"name": "Numérico", "value": "number"},
+    {"id": 4,"name": "Opción simple", "value": "single"},
+    {"id": 5,"name": "Opción multiple", "value": "multiple"}
+  ]
+}

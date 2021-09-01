@@ -1,0 +1,14 @@
+.box-properties {
+  border-radius: $border_radius;
+  background: $white;
+}
+
+.box-shadow {
+  box-shadow: $box_shadow;
+}
+
+.warning-box {
+  background: $warning;
+  border: $warning_border;
+  font-weight: 600;
+}

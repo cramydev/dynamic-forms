@@ -1,0 +1,20 @@
+{
+  "info": [
+    "Este proyecto lo realice con la intención principal de practicar con Vue 3 🤓. Además de practicar y tratar de entender como es crear un formulario de forma dinámica. Se que existen herramientas que permiten realizar esto, pero pienso que al tratar de realizarlas \"desde cero\" se tiene mayor control; por supuesto, lleva más tiempo de desarrolo.",
+    "Pienso escalar este proyecto hasta donde se pueda, al menos desde un punto de vista general 👍.",
+    "⚠️ Nota: Este sitio almacena la información de los formulario en la memoria del navegador. No se está haciendo uso de una API o algo similar."
+  ],
+  "versions": [
+    {
+      "title": "Fecha: 12-08-2021",
+      "activities": [
+        "Módulo de creación de formulario con validaciones básicas.",
+        "Creación y visualización de formularios",
+        "CRUD de campos dinámicos del formulario.",
+        "Permite la creación de campos de texto corto, texto largo, numéricos, opciones simples y opciones múltiples.",
+        "Los formularios manejan dos estatus: Borrador y Publicado. Para esta versión, esta característica no tiene ningún efecto.",
+        "Visualización de formularios creados."
+      ]
+    }
+  ]
+}

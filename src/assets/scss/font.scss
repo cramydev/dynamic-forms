@@ -1,0 +1,51 @@
+// alignments
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.resp-text-center {
+  text-align: left;
+}
+
+// sizes
+.title {
+  font-size: $font_title_size;
+  font-weight: 600;
+  font-family: $fontComforfaa;
+}
+.info {
+  font-size: $font_info_size;
+  font-family: $fontOpenSans;
+}
+.small-info {
+  font-size: $font_small_size;
+  font-family: $fontOpenSans;
+}
+
+// colors
+.font-white {
+  color: $white;
+}
+.font-darker {
+  color: $darker
+}
+.error-message {
+  color: $error;
+  margin-top: 10px;
+}
+
+// transformations
+.font-bold {
+  font-weight: 600;
+}
+
+@media (max-width: $screenSize_tablet) {
+  .resp-text-center {
+    text-align: center;
+  }
+}
